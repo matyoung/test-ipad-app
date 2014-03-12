@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        version     = "1.0.0" >
+    <!-- versionCode is optional and Android only -->
+    <name>EMG3 OCTOPUS</name>
+    <description>
+        EMG3 test video app. 
+    </description>
+		<gap:platform name="ios" />
+		<preference name="orienation" value="portrait" />
+		<icon src="icon.png" />
+        <gap:splash src="splash.png" />
+</widget>
